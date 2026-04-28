@@ -42,3 +42,8 @@ class TestIsEmpty(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+    
+    if lista == []:
+        return True
+    else:
+        return False
