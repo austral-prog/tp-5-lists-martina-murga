@@ -32,3 +32,5 @@ class TestListLength(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+    
+    return int(len(lista))
