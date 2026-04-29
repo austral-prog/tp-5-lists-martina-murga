@@ -13,4 +13,22 @@ def list_of_lists(lista_de_listas):
     Returns:
         La lista de listas modificada según las reglas
     """
-    pass  # Reemplazar con tu implementación
+        if len(lista_de_listas) < 3:
+        lista_de_listas[0][3:] = []
+        del (lista_de_listas[1][0])
+        del (lista_de_listas[1][0])
+        lista_de_listas[1][2:] = []
+        return lista_de_listas
+    elif lista_de_listas[1] == []:
+        lista_de_listas[0][2:] = []
+
+        lista_de_listas[2][0:len(lista_de_listas[2]) - 2] = []
+        return lista_de_listas
+    else:
+        lista_de_listas[0][2:] = []
+
+        del (lista_de_listas[1][0])
+
+        lista_de_listas[1][3:] = []
+        lista_de_listas[2][0:len(lista_de_listas[2]) - 2] = []
+        return lista_de_listas
