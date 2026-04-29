@@ -13,7 +13,7 @@ def list_of_lists(lista_de_listas):
     Returns:
         La lista de listas modificada según las reglas
     """
-        if len(lista_de_listas) < 3:
+    if len(lista_de_listas) < 3:
         lista_de_listas[0][3:] = []
         del (lista_de_listas[1][0])
         del (lista_de_listas[1][0])
