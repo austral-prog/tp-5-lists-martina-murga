@@ -1,4 +1,4 @@
- Ejercicio 1: Obtener la longitud de una lista
+# Ejercicio 1: Obtener la longitud de una lista
 
 def list_length(lista):
     """
@@ -10,4 +10,4 @@ def list_length(lista):
     Returns:
         Un entero con la cantidad de elementos
     """
-    return len(lista)
+    return int(len(lista))
